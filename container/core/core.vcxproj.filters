@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="job_object.h" />
+    <ClInclude Include="ntnative.h" />
+    <ClInclude Include="..\include\winc\container.h" />
+    <ClInclude Include="..\include\winc\logon.h" />
+    <ClInclude Include="..\include\winc\policy.h" />
+    <ClInclude Include="..\include\winc\sid.h" />
+    <ClInclude Include="..\include\winc\target.h" />
+    <ClInclude Include="..\include\winc\util.h" />
+    <ClInclude Include="..\include\winc\desktop.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="container.cc" />
+    <ClCompile Include="policy.cc" />
+    <ClCompile Include="desktop.cc" />
+    <ClCompile Include="job_object.cc" />
+    <ClCompile Include="logon.cc" />
+    <ClCompile Include="util.cc" />
+    <ClCompile Include="target.cc" />
+    <ClCompile Include="sid.cc" />
+  </ItemGroup>
+</Project>
